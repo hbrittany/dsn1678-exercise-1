@@ -55,10 +55,12 @@ img {
 
 .info table{
   display: inline-block;
+  padding: 2em;
 }
 
 .info tr {
   text-transform: capitalize;
   font-style: bold;
   color: gray;
+  float:left;
 }
