@@ -31,7 +31,7 @@ img {
 }
 
 .feature img {
-  position: ;
+  position: absolute;
 }
 
 .feature {
@@ -46,8 +46,10 @@ img {
   color: #FFF;
   font-family: italic;
   position: inherit;
+  float: bottom;
 }
 
-.info table{
-  display: inline-block;
+.info
+.info table tr{
+  display: inline;
 }
