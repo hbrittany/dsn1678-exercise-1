@@ -39,22 +39,22 @@ img {
   padding: 0;
   display: block;
   width: 100%;
+  bottom: 0;
 }
 
 .feature figcaption{
   background-color: rgba(50, 50, 50, .4);
   color: #FFF;
   font-family: italic;
-  position: absolute;
-  float: bottom;
+  position: relative;
 }
 
 .info {
-  position: absolute;
+
 }
 
-.info table tr{
-  display: inline;
+.info table{
+  display: inline-block;
 }
 
 .info tr {
