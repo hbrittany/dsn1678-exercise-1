@@ -55,3 +55,9 @@ img {
 .info table tr{
   display: inline;
 }
+
+.info table tr {
+  text-transform: capitalize;
+  font-style: bold;
+  color: grey;
+}
