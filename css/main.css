@@ -30,22 +30,24 @@ img {
   width: 100%;
 }
 
-.banner img {
+.feature img {
+  position: ;
 }
 
-.banner {
+.feature {
   margin: 0;
   padding: 0;
   display: block;
   width: 100%;
 }
 
-.banner figcaption{
+.feature figcaption{
   background-color:#000;
   color: #FFF;
   font-family: italic;
+  position: inherit;
 }
 
 .info table{
-  display: inline;
+  display: inline-block;
 }
