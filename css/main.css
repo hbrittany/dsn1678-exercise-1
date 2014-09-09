@@ -31,7 +31,7 @@ img {
 }
 
 .feature img {
-  position: absolute;
+  position:relative;
 }
 
 .feature {
@@ -42,22 +42,23 @@ img {
 }
 
 .feature figcaption{
-  background-color: rgba(225, 225, 225, .6);
+  background-color: rgba(50, 50, 50, .4);
+  color: #FFF;
   font-family: italic;
-  position: inherit;
+  position: absolute;
   float: bottom;
 }
 
 .info {
-  position: inherit;
+  position: absolute;
 }
 
 .info table tr{
   display: inline;
 }
 
-.info table tr {
+.info tr {
   text-transform: capitalize;
   font-style: bold;
-  color: grey;
+  color: gray;
 }
